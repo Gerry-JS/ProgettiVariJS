@@ -1,0 +1,55 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+#container {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.colori {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.colori h1{
+    animation: 5s changecolor infinite alternate;
+}
+
+.colori h2 {
+    margin-top: 15%;
+}
+
+
+.bottone {
+    font-size: 2rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+}
+
+@keyframes changecolor {
+    0% {
+        color: aqua;
+    }
+    20% {
+        color: bisque;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: yellow;
+    }
+    80% {
+        color: blueviolet;
+    }
+    100% {
+        color: crimson;
+    }
+}
